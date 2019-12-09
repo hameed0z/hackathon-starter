@@ -277,6 +277,7 @@ exports.postReset = (req, res, next) => {
   const resetPassword = () =>
     User
       .findOne({ passwordResetToken: req.params.token })
+  .findOne({ passwordResetToken: req.params.token })
       .where('passwordResetExpires').gt(Date.now())
       .then((user) => {
         if (!user) {
