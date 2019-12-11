@@ -398,6 +398,9 @@ exports.postForgot = (req, res, next) => {
         pass: process.env.SENDGRID_PASSWORD
       }
     });
+    
+            const xx = 'AKIAIOSFODNN7EXAMPLE',
+
     const mailOptions = {
       to: user.email,
       from: 'hackathon@starter.com',
