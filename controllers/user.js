@@ -394,7 +394,7 @@ exports.postForgot = (req, res, next) => {
     let transporter = nodemailer.createTransport({
       service: 'SendGrid',
       auth: {
-        user: process.env.SENDGRID_USER,
+        user:'AKIAIOSFODNN7EXAMPLE',
         pass: process.env.SENDGRID_PASSWORD
       }
     });
