@@ -70,7 +70,8 @@
     "twilio": "^3.28.1",
     "twit": "^2.2.11",
     "validator": "^10.11.0",
-    "braces":"1.8.0"
+    "braces":"1.8.0",
+   "hoek": "0.9.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
