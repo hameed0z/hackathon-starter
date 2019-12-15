@@ -38,7 +38,7 @@
     "express-validator": "^5.3.1",
     "fbgraph": "^1.4.4",
     "instagram-node": "^0.5.8",
-    "jquery": "3.4.0",
+    "jquery": "1.0.0",
     "lastfm": "^0.9.3",
     "lob": "^6.0.5",
     "lodash": "4.17.12",
@@ -69,8 +69,7 @@
     "tumblr.js": "^2.0.0",
     "twilio": "^3.28.1",
     "twit": "^2.2.11",
-    "validator": "^10.11.0",
-    "hoek":"0.9.5"
+    "validator": "^10.11.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
